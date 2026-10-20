@@ -114,6 +114,11 @@ QuantCordis 用 7875
 
 ## 许可
 
-MIT，见 [LICENSE](LICENSE)。
+**代码 —— MIT。** 见 [LICENSE](LICENSE)。
 
-**只覆盖代码。** 本仓不含任何行情数据 —— 原因见 [`data/README.md`](data/README.md)：数据的权利属于数据供应商，不因代码采用 MIT 而改变。第三方归属（若有）写在 [NOTICE](NOTICE)。
+**书面内容 —— CC BY 4.0。** 规矩清单、研究笔记与设计文档（`docs/**`、两份 README、
+`data/README.md`、`NOTICE`）可复制、可改编、可商用，条件是【署名】。见 [LICENSE-DOCS](LICENSE-DOCS)。
+
+文档中出现的短代码片段可按 MIT 使用 —— 不因为它在文档里就多一道门槛。
+
+**本仓不含任何行情数据。** 原因见 [`data/README.md`](data/README.md)：数据权利属于数据供应商。

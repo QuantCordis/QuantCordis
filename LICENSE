@@ -1,3 +1,15 @@
+Scope of this file
+------------------
+This license covers the **source code** in this repository (.py files, CI
+workflows, hooks, configuration).
+
+The **written content** — docs/**, README.md, README.zh-CN.md, data/README.md,
+NOTICE — is licensed separately under CC BY 4.0. See LICENSE-DOCS.
+
+**Market data** is not present in this repository. See data/README.md.
+
+---
+
 MIT License
 
 Copyright (c) 2026 QuantCordis

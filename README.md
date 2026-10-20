@@ -117,6 +117,14 @@ See docs/SERVICE-CONVENTION.md
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+**Code — MIT.** See [LICENSE](LICENSE).
 
-**Code only.** This repository contains no market data — see [`data/README.md`](data/README.md) for why data rights sit with the data vendor, not with this repository. Third-party attributions, if any, go in [NOTICE](NOTICE).
+**Written content — CC BY 4.0.** The rule list, research notes and design docs
+(`docs/**`, the READMEs, `data/README.md`, `NOTICE`) may be copied, adapted and
+used commercially as long as you attribute. See [LICENSE-DOCS](LICENSE-DOCS).
+
+Short code samples inside a document may be used under MIT, so reading a document
+never blocks using the code it explains.
+
+**No market data** is included. See [`data/README.md`](data/README.md) for why
+data rights sit with the data vendor.

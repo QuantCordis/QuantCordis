@@ -3,7 +3,12 @@ QuantCordis — NOTICE
 
 License scope
 -------------
-Code in this repository is licensed under the MIT License. See LICENSE.
+Source code in this repository is licensed under the MIT License. See LICENSE.
+
+Written content (docs/**, README.md, README.zh-CN.md, data/README.md, NOTICE)
+is licensed under CC BY 4.0. See LICENSE-DOCS.
+
+Short code samples appearing inside a document may be used under MIT.
 
 Market data
 -----------

@@ -2,6 +2,8 @@
 
 **English** | [中文](README.zh-CN.md)
 
+**Licensing:** code is MIT; the documents indexed here are CC BY 4.0 — see [`../LICENSE-DOCS`](../LICENSE-DOCS).
+
 ## Language policy
 
 ```

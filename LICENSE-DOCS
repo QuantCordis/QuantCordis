@@ -1,0 +1,66 @@
+QuantCordis — written content license
+=====================================
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Canonical text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable deed: https://creativecommons.org/licenses/by/4.0/
+
+What this covers
+----------------
+All **written content** in this repository:
+
+  docs/**.md          research notes, methodology, rule list, design docs
+  README.md           root README (English)
+  README.zh-CN.md     root README (Chinese)
+  data/README.md      data scope statement
+  NOTICE              this notice
+  (any other .md file committed in the future, unless it says otherwise)
+
+What this does NOT cover
+------------------------
+**Source code** — every .py file, CI workflow, hook, and config — is licensed
+under the MIT License. See LICENSE.
+
+**Market data** is not in this repository at all. See data/README.md.
+
+What CC BY 4.0 lets you do
+--------------------------
+  share        copy and redistribute the content in any medium or format
+  adapt        remix, transform, and build upon it, including commercially
+
+  under one condition: **attribution**. You must give appropriate credit,
+  provide a link to the license, and indicate if changes were made.
+
+How to attribute
+----------------
+A form like this is sufficient:
+
+  Based on QuantCordis (https://github.com/QuantCordis/QuantCordis),
+  licensed under CC BY 4.0. Changes were made.
+
+Why split the licenses
+----------------------
+The rule list and research notes are the part of this project meant to be read,
+quoted, and reused in other people's methodology — CC BY is written for prose
+and asks for attribution, which is what we want there.
+
+The code is meant to be run and shipped inside other software — MIT is written
+for that, with the warranty disclaimer software needs. CC BY is not suitable
+for source code, and MIT is weak at expressing attribution for prose.
+
+Code snippets inside documents
+------------------------------
+Short code samples that appear *inside* a .md file may be copied and used under
+the MIT License, so that reading a document never puts a license obstacle in the
+way of using the code it explains.
+
+If you would rather that adaptations of the written content stay open, the
+alternative is CC BY-SA 4.0; that is a one-line change to this file, at the
+copyright holder's discretion.
+
+---
+中文摘要：本仓【书面内容】（docs/**、根 README 与 README.zh-CN、data/README、NOTICE）
+采用 CC BY 4.0 —— 可复制、可改编、可商用，条件是署名并注明是否修改；
+【源码】（.py、CI、钩子、配置）采用 MIT，见 LICENSE；行情数据不在本仓，见 data/README.md。
+文档中出现的短代码片段，可按 MIT 使用，避免"读文档反而卡住用代码"。
+若希望改编后仍保持开放，可改为 CC BY-SA 4.0（由版权方决定）。
