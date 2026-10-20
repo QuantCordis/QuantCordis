@@ -52,6 +52,10 @@ docs/        design and research documents
 
 ## Documentation
 
+Full index with an English one-liner for every document: [`docs/README.md`](docs/README.md) · Chinese version: [`docs/README.zh-CN.md`](docs/README.zh-CN.md)
+
+Documents under `docs/` are written in Chinese (working notes, not a polished manual). Sections added from 2026-10-20 onward carry an inline **EN summary** block; full English translations remain a known gap.
+
 ```
 Design
   DATA-LAYER-DESIGN.md    data layer: tables, field conventions, traceability

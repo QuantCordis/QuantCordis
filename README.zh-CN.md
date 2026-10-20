@@ -49,6 +49,10 @@ docs/        设计与研究文档
 
 ## 文档
 
+完整索引（每篇一句英文概括）：[`docs/README.md`](docs/README.md) · 中文版：[`docs/README.zh-CN.md`](docs/README.zh-CN.md)
+
+`docs/` 下的文档以中文撰写（工作笔记，不是打磨过的手册）。2026-10-20 之后新增的小节开头都带 **EN summary** 英文摘要；完整英译仍是已知缺口。
+
 ```
 设计
   DATA-LAYER-DESIGN.md    数据层: 表结构 · 字段口径 · 来源可追溯

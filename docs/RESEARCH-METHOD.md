@@ -93,6 +93,15 @@
 
 ### 2.6 比较之前，先对齐窗口与样本
 
+> **EN summary (2.6) — Align window and sample before comparing two numbers.**
+> A 1.5-year, top-400-by-turnover window gave mean excess −115.26% / median −58.55% for a
+> mean-reversion strategy; an 8.5-year, all-1056-stock study gave −11.30% / +33.00%.
+> 10x apart with opposite median sign. Neither is wrong: in that 1.5-year window the same
+> stocks' buy-and-hold averaged +130.7% with 85.1% advancing, so underperformance was arithmetic.
+> Rule: before putting two numbers side by side, confirm window, sample filter, and price/fee
+> convention all match. If any differs, state them separately; do not use one to refute the other.
+
+
 **案例**：我拿自己的结果去推翻一份更大的研究，得到的差异是 10 倍、且中位数符号相反。
 
 ```
@@ -290,6 +299,13 @@
 ---
 
 ### 3.9 内容比较要忽略行尾
+
+> **EN summary (3.9) — Normalize line endings before comparing file contents.**
+> A per-file hash comparison across two checkouts reported "35 files all different, even LICENSE"
+> purely because one side was CRLF and the other LF. The real LICENSE difference was one line.
+> Rule: use `diff --strip-trailing-cr`, or replace `\r\n` with `\n` first. If the result is
+> "everything differs", suspect the comparison method before drawing a conclusion.
+
 
 **案例**：比较两个仓的同一批文件，逐文件求 hash，结果是「35 个全不相同，连 LICENSE 都不同」。
 
@@ -704,6 +720,15 @@ exit 9  ⇒ **没验**（环境不具备）  ← 而它不该被当成失败
 ---
 
 ### 4.11 静态检查能通过一个不在调用路径上的守卫
+
+> **EN summary (4.11) — A static check can pass a guard that is not on the call path.**
+> A concurrency guard had `BoundedSemaphore` and 429 in the file and the static audit exited 0,
+> yet three concurrent requests all returned 200. The decorator sat above the route decorator, so
+> the framework had already registered the undecorated function. It took three iterations
+> (decorator order, dual routes, JSONResponse for a real status code) before 429 was emitted.
+> Rule: static presence is necessary, not sufficient. A guard's correctness is proven only by
+> runtime behaviour.
+
 
 **案例**：给回测入口加并发闸，代码里有 `BoundedSemaphore`、有 429、审计脚本 exit=0 —— 而闸完全没生效。
 

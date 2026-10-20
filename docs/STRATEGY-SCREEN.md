@@ -285,6 +285,19 @@ corr(平均收益, 平均暴露) = +0.3649   （n=6，弱证据）
 
 ## 十一、跨窗口与跨样本：本文件这些数字不能拿去跟别的窗口比
 
+> **EN summary — Section 11: these numbers are not comparable with other windows.**
+> A 1.5-year trending window (top 400 by turnover) gives mean −115.26% / median −58.55% for
+> `boll_revert`, while this document (8.5 years, all 1056 stocks, back-adjusted) gives
+> −11.30% / +33.00%. 10x apart, opposite median sign, and both correct: in that window the same
+> stocks' buy-and-hold averaged +130.7% with 85.1% advancing, so a mean-reversion strategy losing
+> to buy-and-hold is arithmetic, not evidence about alpha.
+>
+> Rules: (1) before comparing, align window length, sample filter, and price/fee convention;
+> (2) if any differs, state each separately rather than refuting one with the other;
+> (3) to compare across windows, re-run inside one window instead of colliding two conclusions;
+> (4) always report the contemporaneous benchmark return first — it determines what a strategy
+> can possibly be judged to be. General form: `RESEARCH-METHOD.md` rule 2.6.
+
 **案例（2026-10-20）**：另一个工作副本在 `2025-04-28 → 2026-10-15`（1.5 年）、
 成交额前 400 只上跑同一个策略，得到：
 
