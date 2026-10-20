@@ -6,7 +6,9 @@ License scope
 Source code in this repository is licensed under the MIT License. See LICENSE.
 
 Written content (docs/**, README.md, README.zh-CN.md, data/README.md, NOTICE)
-is licensed under CC BY 4.0. See LICENSE-DOCS.
+is licensed under CC BY-SA 4.0. See LICENSE-DOCS.
+ShareAlike applies to adaptations of the written content, not to software
+that implements it.
 
 Short code samples appearing inside a document may be used under MIT.
 

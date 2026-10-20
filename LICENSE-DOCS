@@ -1,9 +1,9 @@
 QuantCordis — written content license
 =====================================
 
-License: Creative Commons Attribution 4.0 International (CC BY 4.0)
-Canonical text: https://creativecommons.org/licenses/by/4.0/legalcode
-Human-readable deed: https://creativecommons.org/licenses/by/4.0/
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+Canonical text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable deed: https://creativecommons.org/licenses/by-sa/4.0/
 
 What this covers
 ----------------
@@ -23,30 +23,56 @@ under the MIT License. See LICENSE.
 
 **Market data** is not in this repository at all. See data/README.md.
 
-What CC BY 4.0 lets you do
---------------------------
+What CC BY-SA 4.0 lets you do
+-----------------------------
   share        copy and redistribute the content in any medium or format
   adapt        remix, transform, and build upon it, including commercially
 
-  under one condition: **attribution**. You must give appropriate credit,
-  provide a link to the license, and indicate if changes were made.
+under two conditions:
+
+  1. **Attribution.** Give appropriate credit, link to the license, and
+     indicate whether changes were made.
+  2. **ShareAlike.** If you adapt the content and then share the adaptation,
+     you must license it under CC BY-SA 4.0 (or a compatible license).
+
+Why ShareAlike, and what it does not mean
+-----------------------------------------
+ShareAlike is here on purpose: the point of this project is that the methodology
+stays open. A closed-source derivative that takes the rules and gives nothing
+back is the outcome ShareAlike prevents.
+
+It does **not** mean any of the following:
+
+```
+· Internal use: copying the rules into a company wiki, unpublished, triggers no
+  obligation beyond attribution.
+· Quoting: citing a paragraph, a rule, or a table in a paper or an article is
+  quoting, not adapting — attribution is enough.
+· Collections: bundling the document unmodified alongside other material is a
+  "collection", and ShareAlike does not spread to the rest of the bundle.
+· Code: ShareAlike follows the written content only. Software that *implements*
+  these rules is not required to be CC BY-SA; it is the software's own license.
+· GPLv3: CC BY-SA 4.0 is one-way compatible with GPLv3, so an adaptation may
+  also be distributed under GPLv3 if that is what a project needs.
+```
 
 How to attribute
 ----------------
 A form like this is sufficient:
 
   Based on QuantCordis (https://github.com/QuantCordis/QuantCordis),
-  licensed under CC BY 4.0. Changes were made.
+  licensed under CC BY-SA 4.0. Changes were made.
 
 Why split the licenses
 ----------------------
 The rule list and research notes are the part of this project meant to be read,
-quoted, and reused in other people's methodology — CC BY is written for prose
-and asks for attribution, which is what we want there.
+quoted, and reused in other people's methodology. They carry a content license
+that keeps adaptations open and asks for attribution.
 
-The code is meant to be run and shipped inside other software — MIT is written
-for that, with the warranty disclaimer software needs. CC BY is not suitable
-for source code, and MIT is weak at expressing attribution for prose.
+The code is meant to be run and shipped inside other software. It carries MIT,
+with the warranty disclaimer software needs. Creative Commons themselves do not
+recommend their licenses for software, and MIT does not express attribution well
+for prose — hence the split.
 
 Code snippets inside documents
 ------------------------------
@@ -54,13 +80,18 @@ Short code samples that appear *inside* a .md file may be copied and used under
 the MIT License, so that reading a document never puts a license obstacle in the
 way of using the code it explains.
 
-If you would rather that adaptations of the written content stay open, the
-alternative is CC BY-SA 4.0; that is a one-line change to this file, at the
-copyright holder's discretion.
-
 ---
-中文摘要：本仓【书面内容】（docs/**、根 README 与 README.zh-CN、data/README、NOTICE）
-采用 CC BY 4.0 —— 可复制、可改编、可商用，条件是署名并注明是否修改；
-【源码】（.py、CI、钩子、配置）采用 MIT，见 LICENSE；行情数据不在本仓，见 data/README.md。
-文档中出现的短代码片段，可按 MIT 使用，避免"读文档反而卡住用代码"。
-若希望改编后仍保持开放，可改为 CC BY-SA 4.0（由版权方决定）。
+中文摘要：
+本仓【书面内容】（docs/**、两份根 README、data/README.md、NOTICE）采用
+CC BY-SA 4.0 —— 可复制、可改编、可商用，条件是【署名】且【改编后的产物也必须
+用 CC BY-SA 4.0（或兼容许可）发布】。
+
+三个不触发 ShareAlike 的情况，避免误解：
+  · 内部使用（不对外）
+  · 引用/摘录（论文、文章里引用一段或一张表）
+  · 汇编收录（原样并列，不修改）
+  另外：ShareAlike 只跟着【内容】走，实现这些规矩的软件不必是 CC BY-SA（它是 MIT）。
+  与 GPLv3 单向兼容。
+
+【源码】采用 MIT，见 LICENSE；【行情数据】不在本仓，见 data/README.md。
+文档中出现的短代码片段，可按 MIT 使用。

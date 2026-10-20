@@ -2,7 +2,7 @@
 
 [English](README.md) | **中文**
 
-**许可:** 代码为 MIT；本索引下的文档为 CC BY 4.0 —— 见 [`../LICENSE-DOCS`](../LICENSE-DOCS)。
+**许可:** 代码为 MIT；本索引下的文档为 CC BY-SA 4.0 —— 见 [`../LICENSE-DOCS`](../LICENSE-DOCS)。
 
 ## 语言约定
 

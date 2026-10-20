@@ -48,6 +48,7 @@ data a vendor forbids redistributing. A synthetic or heavily aggregated sample i
 
 ```
 code (this repository)        MIT — see ../LICENSE
+written content               CC BY-SA 4.0 — see ../LICENSE-DOCS
 market data                   NOT covered by MIT; not present here
 third-party content           see ../NOTICE
 ```
@@ -96,6 +97,7 @@ data/pool.py       可交易股票池的构造
 
 ```
 代码（本仓）      MIT —— 见 ../LICENSE
+书面内容          CC BY-SA 4.0 —— 见 ../LICENSE-DOCS
 行情数据          不受 MIT 覆盖；本仓不含
 第三方内容        见 ../NOTICE
 ```

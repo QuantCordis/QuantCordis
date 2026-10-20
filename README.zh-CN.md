@@ -116,8 +116,10 @@ QuantCordis 用 7875
 
 **代码 —— MIT。** 见 [LICENSE](LICENSE)。
 
-**书面内容 —— CC BY 4.0。** 规矩清单、研究笔记与设计文档（`docs/**`、两份 README、
-`data/README.md`、`NOTICE`）可复制、可改编、可商用，条件是【署名】。见 [LICENSE-DOCS](LICENSE-DOCS)。
+**书面内容 —— CC BY-SA 4.0。** 规矩清单、研究笔记与设计文档（`docs/**`、两份 README、
+`data/README.md`、`NOTICE`）可复制、可改编、可商用，条件是【署名】且【改编后的产物也必须
+用 CC BY-SA 4.0 发布】。见 [LICENSE-DOCS](LICENSE-DOCS)。引用段落、或原样收录进合集，
+不触发 ShareAlike。
 
 文档中出现的短代码片段可按 MIT 使用 —— 不因为它在文档里就多一道门槛。
 

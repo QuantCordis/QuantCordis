@@ -119,9 +119,11 @@ See docs/SERVICE-CONVENTION.md
 
 **Code — MIT.** See [LICENSE](LICENSE).
 
-**Written content — CC BY 4.0.** The rule list, research notes and design docs
+**Written content — CC BY-SA 4.0.** The rule list, research notes and design docs
 (`docs/**`, the READMEs, `data/README.md`, `NOTICE`) may be copied, adapted and
-used commercially as long as you attribute. See [LICENSE-DOCS](LICENSE-DOCS).
+used commercially under two conditions: attribute, and keep adaptations open under
+the same license. See [LICENSE-DOCS](LICENSE-DOCS). Quoting a passage or including
+the document unmodified in a collection does not trigger ShareAlike.
 
 Short code samples inside a document may be used under MIT, so reading a document
 never blocks using the code it explains.
