@@ -117,4 +117,6 @@ See docs/SERVICE-CONVENTION.md
 
 ## License
 
-MIT, see LICENSE.
+MIT, see [LICENSE](LICENSE).
+
+**Code only.** This repository contains no market data — see [`data/README.md`](data/README.md) for why data rights sit with the data vendor, not with this repository. Third-party attributions, if any, go in [NOTICE](NOTICE).

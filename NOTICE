@@ -1,0 +1,28 @@
+QuantCordis — NOTICE
+=====================
+
+License scope
+-------------
+Code in this repository is licensed under the MIT License. See LICENSE.
+
+Market data
+-----------
+This repository contains NO market data: no prices, bars, adjustment-factor
+values, or trading records. Everything under data/ is code that describes a
+schema and a fetch procedure.
+
+Data consumed by this project comes from a vendor (xtdata / the QMT terminal)
+under terms agreed between the user and that vendor. Those terms are not
+granted, and cannot be granted, by this repository's MIT license.
+
+If a sample dataset is ever added, its source and terms MUST be recorded in
+data/README.md before it is committed.
+
+Third-party components
+----------------------
+If any third-party code is vendored into this repository in the future, its
+license and attribution belong in this file.
+
+---
+中文摘要：本仓代码为 MIT；本仓不含任何行情数据；数据条款属于使用者与数据供应商之间，
+不因代码采用 MIT 而改变；若将来加入样例数据，须先在 data/README.md 记明来源与条款。
