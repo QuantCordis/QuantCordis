@@ -46,7 +46,12 @@ if HERE not in sys.path:
 from db import get_connection # noqa: E402
 
 TABLE = "quantcordis_bar_none"
-START, END = "20010101", "20261014"
+# ★★ 2026-10-24 修正: END 原本写死成 "20261014" ⇒ fetch() 用 end_time=END
+#   ⇒ 工具从设计上永远拿不到 10-14 之后的数据，而且【静默】：它会成功地
+#     写回一份到 10-14 为止的数据，看起来一切正常。
+#   实测: 处理 150 只之后，trade_date>="2026-10-15" 的行数仍是 0。
+#   现在: END="" 表示"到现在"（与 tools/fetch_5m.py 的 end_time="" 一致）。
+START, END = "20010101", ""
 
 DDL = """
 CREATE TABLE IF NOT EXISTS {t} (
